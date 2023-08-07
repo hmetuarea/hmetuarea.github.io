@@ -22,19 +22,28 @@
     background-attachment: fixed;
 }
 
-.section1 .info {
-    padding-left: 10%;
-    padding-top: 19%;
+.section1 .ban {
+    padding-top: 5%;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: auto auto;
+    column-gap: 20px;
 }
 
-
-.section1 .info h2 {
-    font-weight: 700;
+.section1 .ban .photo {
+    /**background-color: aqua;**/
+    text-align: center;
+    padding-right: 10%;
 }
 
-.section1 .addresse {
+.section1 .ban .addresse {
     padding-left: 10%;
     padding-top: 1%;
+    /**    background-color: chocolate;**/
+}
+
+.section1 .ban .addresse h2 {
+    font-weight: 700;
 }
 
 .section1 .cv {
@@ -71,12 +80,7 @@
 }
 
 .section2 .info h2 {
-    text-transform: uppercase;
-    font-size: 2.5em;
-    font-weight: 400;
-    letter-spacing: 2px;
-    padding: 10px;
-    color: black;
+    font-weight: 700;
 }
 
 /*section 3*/
@@ -94,6 +98,14 @@
     background-position: center;
 }
 
+.section3 .info .less{
+    padding-top: 5%;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
 .section3 .info {
     margin: auto;
     width: 70%;
@@ -109,12 +121,7 @@
 }
 
 .section3 .info h2 {
-    text-transform: uppercase;
-    font-size: 2.5em;
-    font-weight: 200;
-    letter-spacing: 2px;
-    padding: 10px;
-    color: black;
+    font-weight: 700;
 }
 
 .section3 .info .contenu{
